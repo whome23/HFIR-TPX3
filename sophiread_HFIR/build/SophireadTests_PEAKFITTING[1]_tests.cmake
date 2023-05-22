@@ -1,0 +1,5 @@
+add_test([=[PeakFitting.CentroidAlgorithm]=]  /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build/SophireadTests_PEAKFITTING [==[--gtest_filter=PeakFitting.CentroidAlgorithm]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PeakFitting.CentroidAlgorithm]=]  PROPERTIES WORKING_DIRECTORY /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[PeakFitting.FastGaussianAlgorithm]=]  /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build/SophireadTests_PEAKFITTING [==[--gtest_filter=PeakFitting.FastGaussianAlgorithm]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PeakFitting.FastGaussianAlgorithm]=]  PROPERTIES WORKING_DIRECTORY /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  SophireadTests_PEAKFITTING_TESTS PeakFitting.CentroidAlgorithm PeakFitting.FastGaussianAlgorithm)

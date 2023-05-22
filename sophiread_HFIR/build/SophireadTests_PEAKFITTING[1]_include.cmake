@@ -1,0 +1,5 @@
+if(EXISTS "/Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build/SophireadTests_PEAKFITTING[1]_tests.cmake")
+  include("/Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build/SophireadTests_PEAKFITTING[1]_tests.cmake")
+else()
+  add_test(SophireadTests_PEAKFITTING_NOT_BUILT SophireadTests_PEAKFITTING_NOT_BUILT)
+endif()

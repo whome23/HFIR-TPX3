@@ -1,0 +1,5 @@
+# ABS
+abs_radius 5 					# in number of pixels 
+abs_min_cluster_size 1  		# minimum cluster size. in number of pixels
+abs_max_cluster_size 10000  		# maximum cluster size. in number of pixels
+spider_time_range 500000 			# in nanoseconds

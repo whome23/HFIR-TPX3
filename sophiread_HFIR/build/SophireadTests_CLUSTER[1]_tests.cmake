@@ -1,0 +1,5 @@
+add_test([=[Clustering.ABSAlgorithm]=]  /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build/SophireadTests_CLUSTER [==[--gtest_filter=Clustering.ABSAlgorithm]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Clustering.ABSAlgorithm]=]  PROPERTIES WORKING_DIRECTORY /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Clustering.DBSCANAlgorithm]=]  /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build/SophireadTests_CLUSTER [==[--gtest_filter=Clustering.DBSCANAlgorithm]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Clustering.DBSCANAlgorithm]=]  PROPERTIES WORKING_DIRECTORY /Users/fumiaki/Desktop/Detector_test_sta/HFIR/Sophiread_HFIR/mcpevent2hist-next/sophiread_HFIR/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  SophireadTests_CLUSTER_TESTS Clustering.ABSAlgorithm Clustering.DBSCANAlgorithm)
