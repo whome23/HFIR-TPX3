@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> f6cfe8432ada8dcfe79ac7924148b33377e37faa
-MCP2EventHist
-=============
 
 This repository hosts the application, `Sophiread_HFIR`, which can be used to process raw data from timepix3 chips and perform clustering and peak fitting to extract neutron events. 
 
