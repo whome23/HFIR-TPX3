@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libSophireadLib.a CMakeFiles/SophireadLib.dir/SophireadLib_autogen/mocs_compilation.cpp.o CMakeFiles/SophireadLib.dir/src/abs.cpp.o CMakeFiles/SophireadLib.dir/src/dbscan.cpp.o CMakeFiles/SophireadLib.dir/src/tpx3.cpp.o CMakeFiles/SophireadLib.dir/src/centroid.cpp.o CMakeFiles/SophireadLib.dir/src/fastgaussian.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libSophireadLib.a
