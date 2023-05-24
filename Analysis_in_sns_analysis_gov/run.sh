@@ -13,7 +13,7 @@
 
 RUM_NUM=$1
 DSCALE="1" # Number of pixels in one axis =256*DSCALE
-ROTATION="1.0" # Rotation angle for the image. Need to be float number !!!!!!!!!!!!!!!
+ROTATION="90.0" # Rotation angle for the image. Need to be float number !!!!!!!!!!!!!!!
 ####  Create initial configuration   #####
 Pre_DIR="../raw/"
 H5_DIR="../Analyzed_DATA/H5/"
