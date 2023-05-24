@@ -1,5 +1,5 @@
 # ABS
 abs_radius 5 					# in number of pixels 
-abs_min_cluster_size 1  		# minimum cluster size. in number of pixels
+abs_min_cluster_size 15  		# minimum cluster size. in number of pixels(05232023@cg4b we confirmed with neutron counts with different `abs_min_cluster_size` this geve us 78% efficiency compared with He3 detector)
 abs_max_cluster_size 10000  		# maximum cluster size. in number of pixels
 spider_time_range 500000 			# in nanoseconds
