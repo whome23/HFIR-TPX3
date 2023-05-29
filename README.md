@@ -14,6 +14,9 @@ Changes from Sophiread
 `CONDA_SUBDIR=osx-64 conda create -n sophiread_HFIR -f environment_mac.yml`
 
 `conda activate sophiread_HFIR`
+
 `mkdir build; cd build`
+
 `cmake ..`
+
 `make -j4`
